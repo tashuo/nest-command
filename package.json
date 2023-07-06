@@ -1,5 +1,5 @@
 {
-    "name": "nestjs-cli",
+    "name": "nestjs-commander",
     "version": "1.0.0",
     "description": "NestJS command with yargs",
     "author": "Vince<dangyaming@outlook.com>",
@@ -29,7 +29,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/tashuo/nestjs-cli"
+        "url": "https://github.com/tashuo/nestjs-commander"
     },
     "peerDependencies": {
         "@nestjs/common": "^7.0.0",
