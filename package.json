@@ -32,8 +32,8 @@
         "url": "https://github.com/tashuo/nestjs-commander"
     },
     "peerDependencies": {
-        "@nestjs/common": "^7.0.0",
-        "@nestjs/core": "^7.0.0",
+        "@nestjs/common": "^8.0.0",
+        "@nestjs/core": "^8.0.0",
         "yargs": "^16.1.0 || ^17.0.0",
         "lodash": "^4.0.0"
     },
@@ -42,10 +42,10 @@
         "lodash": "^4.0.0"
     },
     "devDependencies": {
-        "@nestjs/common": "^7.0.0",
-        "@nestjs/core": "^7.0.0",
-        "@nestjs/platform-express": "^7.0.0",
-        "@nestjs/testing": "^7.0.0",
+        "@nestjs/common": "^8.0.0",
+        "@nestjs/core": "^8.0.0",
+        "@nestjs/platform-express": "^8.0.0",
+        "@nestjs/testing": "^8.0.0",
         "@types/jest": "^26.0.0",
         "@types/node": "^15.0.0",
         "@types/yargs": "^16.0.4",
