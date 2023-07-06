@@ -12,7 +12,7 @@
         "build": "rm -Rf ./dist && tsc -b tsconfig.build.json",
         "prepare": "npm run build",
         "format": "prettier --write \"src/**/*.ts\"",
-        "lint": "tslint -p tsconfig.json -c tslint.json",
+        "eslint": "eslint -c .eslintrc.js",
         "test": "jest",
         "test:watch": "jest --watch",
         "test:cov": "jest --coverage",
