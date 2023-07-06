@@ -1,0 +1,11 @@
+.DS_Store
+src/
+test/
+.vscode/
+.prettierrc
+.prettierignore
+.gitignore
+tsconfig.json
+tsconfig.build.json
+pnpm-lock.yaml
+.eslintrc.js
