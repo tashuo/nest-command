@@ -1,5 +1,5 @@
 {
-    "name": "nestjs-commander",
+    "name": "nest-command",
     "version": "1.0.0",
     "description": "NestJS command with yargs",
     "author": "Vince<dangyaming@outlook.com>",
