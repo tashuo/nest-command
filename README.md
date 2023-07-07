@@ -11,7 +11,7 @@ NestJS Command tool, based on [yargs](https://github.com/yargs/yargs).
 ## Installation
 
 ```bash
-$ npm install --save nest-command
+$ npm install --save nest-commands
 
 # with typescript
 $ npm install --save-dev @types/yargs
