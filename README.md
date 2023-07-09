@@ -168,7 +168,7 @@ $ npm install --save-dev @types/yargs
     
     2. original yargs command
 
-        `./test/multiple.command.ts`
+        具体示例可查看[origin.command.ts](https://github.com/tashuo/nest-command/blob/master/test/original.command.ts)
 
         使用`@OriginYargsCommand`装饰的类也可以直接注册为command，**便于复用已有的yargs command**，所以必须保证该类继承了`yargs.CommandModule`，是一个标准的yargs command
 
