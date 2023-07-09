@@ -22,7 +22,7 @@ $ npm install --save-dev @types/yargs
 
     ```typescript
     import { Module } from '@nestjs/common';
-    import { CommandModule } from 'nest-command';
+    import { CommandModule } from 'nest-commands';
 
     @Module({
         imports: [CommandModule]
@@ -115,7 +115,7 @@ $ npm install --save-dev @types/yargs
         ```typescript
         # app.module.ts
         import { Module } from '@nestjs/common';
-        import { CommandModule } from 'nest-command';
+        import { CommandModule } from 'nest-commands';
         import { SimpleCommand } from './simple.command';
     
         @Module({
