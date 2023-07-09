@@ -1,6 +1,6 @@
 {
     "name": "nest-commands",
-    "version": "4.1.1",
+    "version": "4.1.2",
     "description": "NestJS command with yargs",
     "author": "Vince<dangyaming@outlook.com>",
     "license": "MIT",
