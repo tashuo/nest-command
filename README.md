@@ -22,7 +22,7 @@ $ npm install --save-dev @types/yargs
 
     ```typescript
     import { Module } from '@nestjs/common';
-    import { CommandModule } from 'nest-command';
+    import { CommandModule } from 'nest-commands';
 
     @Module({
         imports: [CommandModule]
@@ -35,7 +35,7 @@ $ npm install --save-dev @types/yargs
     # src/console.ts
     import { NestFactory } from '@nestjs/core';
     import { AppModule } from './app.module';
-    import { CommandModule, CommandService } from 'nestjs-command';
+    import { CommandModule, CommandService } from 'nestjs-commands';
     
     async function bootstrap() {
         try {
@@ -73,7 +73,7 @@ $ npm install --save-dev @types/yargs
         ```typescript
         # ./src/simple.command.ts
         import { Injectable } from '@nestjs/common';
-        import { Command } from 'nestjs-command';
+        import { Command } from 'nestjs-commands';
         
         @Injectable()
         export class SimpleCommand {
@@ -115,7 +115,7 @@ $ npm install --save-dev @types/yargs
         ```typescript
         # app.module.ts
         import { Module } from '@nestjs/common';
-        import { CommandModule } from 'nest-command';
+        import { CommandModule } from 'nest-commands';
         import { SimpleCommand } from './simple.command';
     
         @Module({
@@ -168,7 +168,7 @@ $ npm install --save-dev @types/yargs
     
     2. original yargs command
 
-        `./test/multiple.command.ts`
+        具体示例可查看[origin.command.ts](https://github.com/tashuo/nest-command/blob/master/test/original.command.ts)
 
         使用`@OriginYargsCommand`装饰的类也可以直接注册为command，**便于复用已有的yargs command**，所以必须保证该类继承了`yargs.CommandModule`，是一个标准的yargs command
 
