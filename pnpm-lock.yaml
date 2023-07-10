@@ -7,7 +7,7 @@ specifiers:
   '@nestjs/testing': ^10.0.0
   '@types/jest': ^27.0.0
   '@types/node': ^16.0.0
-  '@types/yargs': ^17.0.0
+  '@types/yargs': ^16.0.0
   '@typescript-eslint/eslint-plugin': ^5.4.0
   '@typescript-eslint/parser': ^5.4.0
   eslint: ^8.3.0
@@ -36,7 +36,7 @@ devDependencies:
   '@nestjs/testing': 10.0.5_xv6z2b7tebkuse7iqzr2brbvvq
   '@types/jest': 27.5.2
   '@types/node': 16.18.38
-  '@types/yargs': 17.0.24
+  '@types/yargs': 16.0.5
   '@typescript-eslint/eslint-plugin': 5.61.0_gn73vudgtfem7qn7ibwc3bxoci
   '@typescript-eslint/parser': 5.61.0_bo37hygl5lxatn6mz3dqk6cp7m
   eslint: 8.44.0
@@ -945,12 +945,6 @@ packages:
 
   /@types/yargs/16.0.5:
     resolution: {integrity: sha512-AxO/ADJOBFJScHbWhq2xAhlWP24rY4aCEG/NFaMvbT3X2MgRsLjhjQwsn0Zi5zn0LG9jUhCCZMeX9Dkuw6k+vQ==}
-    dependencies:
-      '@types/yargs-parser': 21.0.0
-    dev: true
-
-  /@types/yargs/17.0.24:
-    resolution: {integrity: sha512-6i0aC7jV6QzQB8ne1joVZ0eSFIstHsCrobmOtghM11yGlH0j43FKL2UhWdELkyps0zuf7qVTUVCCR+tgSlyLLw==}
     dependencies:
       '@types/yargs-parser': 21.0.0
     dev: true
