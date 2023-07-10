@@ -35,7 +35,7 @@ $ npm install --save-dev @types/yargs
     # src/console.ts
     import { NestFactory } from '@nestjs/core';
     import { AppModule } from './app.module';
-    import { CommandModule, CommandService } from 'nestjs-command';
+    import { CommandModule, CommandService } from 'nestjs-commands';
     
     async function bootstrap() {
         try {
@@ -73,7 +73,7 @@ $ npm install --save-dev @types/yargs
         ```typescript
         # ./src/simple.command.ts
         import { Injectable } from '@nestjs/common';
-        import { Command } from 'nestjs-command';
+        import { Command } from 'nestjs-commands';
         
         @Injectable()
         export class SimpleCommand {
